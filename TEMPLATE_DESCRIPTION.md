@@ -1,6 +1,6 @@
 ## Template Titles
 
-**Railway Title:** `9Router [Updated Jul '26]`
+**Railway Title:** `9Router` (plain name only, this field controls the URL slug)
 **Railway Description:** `9Router [Jul '26] (Self-Hosted AI Gateway & LLM Router) Self Host`
 **Spreadsheet Title:** `9Router (Open-Source AI Gateway, Multi-Provider LLM Router & Token Saver)`
 **GitHub Description:** `9Router: self-hosted AI gateway that routes Claude Code, Cursor, Codex, and OpenAI-compatible tools across 40+ LLM providers. Deploy on Railway with one click.`
@@ -45,7 +45,7 @@ OpenRouter charges a 5.5% markup on every token routed through it, on top of wha
 
 ### Deployment Dependencies for Managed 9Router Service (AI Gateway)
 
-This template provisions a persistent Railway volume mounted at `/app/data`, wired to the container automatically. No Postgres, no Redis, 9Router bundles its own SQLite storage. An optional "Headroom" compression sidecar exists in 9Router's docs but isn't provisioned here.
+This template provisions a persistent Railway volume mounted at `/app/data`, wired to the container automatically. No Postgres, no Redis. An optional "Headroom" compression sidecar exists in 9Router's docs but isn't provisioned here.
 
 ### Implementation Details for 9Router (Using 9Router Official Docker Image)
 
