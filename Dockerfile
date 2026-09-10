@@ -1,4 +1,4 @@
-FROM decolua/9router:0.5.45
+FROM decolua/9router:0.5.69
 
 # 9router's own Dockerfile already sets PORT/HOSTNAME as ENV defaults and
 # handles volume permissions correctly at container start (its entrypoint
